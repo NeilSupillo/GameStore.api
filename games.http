@@ -6,9 +6,9 @@ POST http://localhost:5009/games
 Content-Type: application/json
 
 {
-    
-    "genre": "First-person shooter",
-    "price": 19.99,
+    "name": "Valorant: Reborn",
+    "genreId": "1",
+    "price": 1.99,
     "releaseDate": "2020-01-01"
 }
 
