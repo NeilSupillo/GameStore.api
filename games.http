@@ -1,6 +1,6 @@
 GET http://localhost:5009/games
 ###
-GET http://localhost:5009/games/3
+GET http://localhost:5009/games/2
 ###
 POST http://localhost:5009/games
 Content-Type: application/json
@@ -13,13 +13,13 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:5009/games/1
+PUT http://localhost:5009/games/2
 Content-Type: application/json
 
 {
-    "name": "Valorant: Reborn",
-    "genre": "First-person shooter",
-    "price": 24.99,
+    "name": "Chess",
+    "genreId": 1,
+    "price": 9.00,
     "releaseDate": "2021-01-01"
 }
 

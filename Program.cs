@@ -1,4 +1,4 @@
-// 3:00
+// 3:23
 
 using GameStore.api.Data;
 using GameStore.api.Dtos;
@@ -18,7 +18,8 @@ var app = builder.Build();
 // ];
 
 app.MapGamesEndpoints();
+app.MapGenresEndpoints();
 
-app.MigrateDb();
+await app.MigrateDbAsync();
 
 app.Run();
